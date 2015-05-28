@@ -15,12 +15,10 @@ permalink: shows/
 | Sat 6/13/15 | Denver       | Rhino                            |
 | Sun 6/14/15 | Durango      | (self booked)                    |
 | Mon 6/15/15 | Albuquerque  | The Mountains                    |
-| Tue 6/16/15 |              |                                  |
 | Wed 6/17/15 | Austin       | Beerland                         |
 | Thu 6/18/15 | Houston      | Walters                          |
 | Fri 6/19/15 | New Orleans  | WAREHOUSE                        |
 | Sat 6/20/15 | Gainsville   | The Atlantic                     |
-| Sun 6/21/15 |              |                                  |
 | Mon 6/22/15 | Atlanta      | 529-free show                    |
 | Tue 6/23/15 | Nashville    | End                              |
 | Wed 6/24/15 | Asheville    | Tiger Mountain                   |
