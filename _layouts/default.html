@@ -1,5 +1,5 @@
 ---
-title: 'This is my Site Title'
+title: 'Broken Water'
 ---
 <!DOCTYPE html>
 <html>
@@ -12,20 +12,19 @@ title: 'This is my Site Title'
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
-        </div>
-      </div>
-    </div>
+        <nav class='menu'>
+          
+          <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Diary</a>
+          <a class='{% if page.url == "/music" %}active{% endif %}' href='{{site.baseurl}}/music'>Music</a>
+          <a class='{% if page.url == "/about" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+          <a class='{% if page.url == "/shows" %}active{% endif %}' href='{{site.baseurl}}/shows'>Shows</a>
+          <a class='{% if page.url == "/picsandvids" %}active{% endif %}' href='{{site.baseurl}}/picsandvids'>Pics + Vids</a>
+          <a class='{% if page.url == "/contact" %}active{% endif %}' href='{{site.baseurl}}/contact'>Contact</a>
+        </nav>
+        <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
     {{content}}
-  </div>
   <script src='{{site.baseurl}}/site.js'></script>
+  <script type='text/javascript' id="__bs_script__">//<![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.7.5.js'><\/script>".replace("HOST", location.hostname));
+  //]]></script>
 </body>

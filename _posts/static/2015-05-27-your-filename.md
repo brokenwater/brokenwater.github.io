@@ -2,11 +2,9 @@
 layout: page
 published: true
 title: Shows
-permalink: shows/
+permalink: shows
 ---
 
-
-## these are the shows!
 
 | Date        | City         | Venue                            |
 |-------------|--------------|----------------------------------|
