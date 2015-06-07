@@ -72,6 +72,10 @@ div.page iframe {
   margin: 1em 0;
 }
 
+div.page img {
+  max-width: 100%;
+}
+
 div.post h2.date {
   font-size: .75em;
   line-height: 2;
